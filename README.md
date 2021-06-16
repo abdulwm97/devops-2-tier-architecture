@@ -7,7 +7,7 @@
 ## Inbound rules for database instance
 ![image](https://user-images.githubusercontent.com/80905254/122139049-f692a800-ce3f-11eb-81f4-804f5ed9496e.png)
 
-## Replace default with this for reverse proxy (the ip is the ip of the app)
+## Replace default with this for reverse proxy (the ip is the ip of the app). In etc/nginx/sites-available
 ```
 server {
 	listen 80;
