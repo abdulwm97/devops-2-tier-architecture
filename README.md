@@ -17,7 +17,7 @@ server {
 	server_name _;
 
 	location / {
-		proxy_pass http://192.168.10.100:3000;
+		proxy_pass http://34.253.225.37:3000;
 		proxy_http_version 1.1;
 		proxy_set_header Upgrade $http_upgrade;
 		proxy_set_header Connection 'upgrade';
