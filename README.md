@@ -126,7 +126,7 @@ sudo systemctl enable mongod
 ```
 
 ## In the app instance do the following
-`export DB_HOST=mongodb://192.168.10.150:27017/posts` - This sets up the environment variable for DB_HOST
+`export DB_HOST=mongodb://34.245.170.40:27017/posts` - This sets up the environment variable for DB_HOST
 Seeding maybe required so go to the seeds folder and `node seed.js`.
 Now `npm start`
 
