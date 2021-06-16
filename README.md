@@ -1,6 +1,8 @@
 # Devops 2-tier architecture
 ![image](https://user-images.githubusercontent.com/80905254/122024703-94df2900-cdc0-11eb-963b-f65f06e3bd4e.png)
 
+## Allows app to be transferred from local machine to virtual machine
+`scp -i "devop_bootcamp.pem"  -r C:\Users\abdul\aws_app\app ubuntu@ec2-34-253-225-37.eu-west-1.compute.amazonaws.com:/home/ubuntu`
 ## Inbound rules for app instance
 ![image](https://user-images.githubusercontent.com/80905254/122139110-1de97500-ce40-11eb-9f6e-4c8d176c8b5d.png)
 
