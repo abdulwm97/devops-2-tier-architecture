@@ -8,6 +8,8 @@
 
 ## Inbound rules for database instance
 ![image](https://user-images.githubusercontent.com/80905254/122139049-f692a800-ce3f-11eb-81f4-804f5ed9496e.png)
+## To transfer file(app) to instance
+`scp -i "devop_bootcamp.pem"  -r C:\Users\abdul\aws_app\app ubuntu@ec2-18-203-234-37.eu-west-1.compute.amazonaws.com:/home/ubuntu`
 
 ## Replace default with this for reverse proxy (the ip is the ip of the app). In etc/nginx/sites-available
 ```
